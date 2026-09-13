@@ -5,12 +5,36 @@
 	(layer "F.Cu")
 	(descr "ESP32C3 super mini - Socket")
 	(tags "ESP32C3")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0dac622e-2757-476f-9937-bb14640ab625")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ESP32C3-SM"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77f584c1-339b-4e03-8eee-f5741e0d8a64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "babe7c60-dcde-42a0-9a9e-8abcb4eb2785")
+		(uuid "0a947148-17d4-4ecf-b081-42ea858e3272")
 		(effects
 			(font
 				(size 1 1)
@@ -23,31 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "207a7729-6d9d-40d8-a6de-f12f87b52d13")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at 0 -0.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "77e1ce82-c908-499b-915a-ad07b645ab31")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Value" "ESP32C3-SM"
-		(at 0 1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "65ea3276-f8bf-4cc7-905f-7f203288f647")
+		(uuid "4ea59373-8858-4ead-a7da-e8032c9c621e")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a56a52f4-66c0-45ad-997c-ff95e2d1ccec")
+		(uuid "61dbf508-3148-49c3-acfd-630d6048a4e5")
 	)
 	(fp_rect
 		(start -5.08 -12.7)
@@ -77,13 +77,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "93214a2e-cb77-4f21-be4f-81cf8aebb2cc")
+		(uuid "e7c61169-f854-41bb-9f51-56fffa766dd5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "db2ecc37-4fc2-46d7-966d-468d43147c9f")
+		(uuid "634d50aa-691a-482e-a632-3ec0b840b97f")
 		(effects
 			(font
 				(size 1 1)
@@ -98,7 +98,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "61524bfe-ed29-4081-b574-ae1295f4d629")
+		(uuid "018d6cda-29df-4fa8-bf56-65c16804e534")
 	)
 	(pad "2" thru_hole roundrect
 		(at -7.62 -6.35)
@@ -107,7 +107,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "21e55fc2-2e62-4e99-bea6-c1a1b4fa1c30")
+		(uuid "b2cae66b-7368-4d16-ad2b-a515263412b9")
 	)
 	(pad "3" thru_hole roundrect
 		(at -7.62 -3.81)
@@ -116,7 +116,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "96d28eaf-be2e-469a-89ae-7db49dc5afd2")
+		(uuid "23422ff8-6509-4c94-b6e2-a89c52cbdac5")
 	)
 	(pad "4" thru_hole roundrect
 		(at -7.62 -1.27)
@@ -125,7 +125,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "ce13f2e9-32d2-478d-93f5-8b67a2e8da0e")
+		(uuid "599b35d7-43c1-4072-a23b-95f3ab824e5d")
 	)
 	(pad "5" thru_hole roundrect
 		(at -7.62 1.27)
@@ -134,7 +134,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "2328852e-d4cb-42aa-afd8-55793f271218")
+		(uuid "81604b32-367b-4f78-bc48-87297701f33f")
 	)
 	(pad "6" thru_hole roundrect
 		(at -7.62 3.81)
@@ -143,7 +143,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "a5b738f5-38e6-4d4b-8cc0-adec54f668a4")
+		(uuid "5c41d883-1b36-465d-bdae-f455ea58ae02")
 	)
 	(pad "7" thru_hole roundrect
 		(at -7.62 6.35)
@@ -152,7 +152,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "9adcdaf6-c225-4491-95c5-9bce3793d6d4")
+		(uuid "58f3c04f-9109-4961-b0cd-526af415fc2a")
 	)
 	(pad "8" thru_hole roundrect
 		(at -7.62 8.89)
@@ -161,7 +161,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "fba597c4-7368-4e9c-ae91-a5105b6ef6e4")
+		(uuid "ae59f610-3668-4c97-8f36-5070983ab78c")
 	)
 	(pad "9" thru_hole roundrect
 		(at 7.62 -8.89)
@@ -170,7 +170,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "5328bc54-3235-4654-94d5-201533ffcc44")
+		(uuid "4af4667d-63d2-467d-a90c-3e54fd3e3e86")
 	)
 	(pad "10" thru_hole roundrect
 		(at 7.62 -6.35)
@@ -179,7 +179,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "81568485-d66e-4991-be3e-2002058af046")
+		(uuid "93afe9f6-636d-4941-aec5-92be07d69963")
 	)
 	(pad "11" thru_hole roundrect
 		(at 7.62 -3.81)
@@ -188,7 +188,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "1102b938-5ad4-4e40-9d3c-ee32218e54cd")
+		(uuid "d51a08b5-8c42-4bd0-8671-4a421e695c99")
 	)
 	(pad "12" thru_hole roundrect
 		(at 7.62 -1.27)
@@ -197,7 +197,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "07942ae2-0098-4b8e-ae27-9beb249cad2e")
+		(uuid "e180b99d-dd5d-44f5-b21e-ae480093e089")
 	)
 	(pad "13" thru_hole roundrect
 		(at 7.62 1.27)
@@ -206,7 +206,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "29d6d1fa-c861-4c57-8c67-7227585e46d1")
+		(uuid "64a411de-593a-479d-be27-8d10038582f2")
 	)
 	(pad "14" thru_hole roundrect
 		(at 7.62 3.81)
@@ -215,7 +215,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "99ca9899-74d3-44fd-a439-e43681bb9cd6")
+		(uuid "0213facf-42a9-4a8e-8cfb-b86865974366")
 	)
 	(pad "15" thru_hole roundrect
 		(at 7.62 6.35)
@@ -224,7 +224,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "011cc0b0-a168-48b2-92cb-bf63d3c5b75c")
+		(uuid "e7c5c395-9a7b-4d50-aa28-dad71be7b5ff")
 	)
 	(pad "16" thru_hole roundrect
 		(at 7.62 8.89)
@@ -233,11 +233,11 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "91f549f5-d027-421d-a699-ea0d2b12f292")
+		(uuid "5972d800-954b-4fdf-a52a-0d832e66ca69")
 	)
 	(zone
-		(layer "F.SilkS")
-		(uuid "2546ad83-3297-4555-b531-0bbc8bc736ca")
+		(layers "F.Cu" "B.Cu" "F.SilkS")
+		(uuid "2c151d9d-84d0-4a17-a993-fb235b14d6b2")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -248,7 +248,7 @@
 			(vias not_allowed)
 			(pads not_allowed)
 			(copperpour not_allowed)
-			(footprints allowed)
+			(footprints not_allowed)
 		)
 		(placement
 			(enabled no)
